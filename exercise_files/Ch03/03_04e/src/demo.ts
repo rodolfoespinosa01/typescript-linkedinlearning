@@ -13,7 +13,7 @@ interface Contact {
     address: Address;
 }
 
-type Awesome = Contact["address"]["postalCode"]
+type Awesome = Contact["id"]
 
 interface ContactEvent {
     contactId: Contact["id"];
